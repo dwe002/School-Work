@@ -1,0 +1,42 @@
+Script started on 2021-09-23 18:53:50-07:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab04[006896598@csusb.edu@jb359-2 lab04]$ ./lab04
+Please enter x: 3
+Please enter n: 10
+88573
+The execution time is : 4.3891e-05
+88573
+The execution time is : 6.532e-06
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab04[006896598@csusb.edu@jb359-2 lab04]$ ./lab [K[K[K[Klab04
+Please enter x: 3
+Please enter n: 100
+-4476934268306317895
+The execution time is : 9.2433e-05
+-4476934268306317895
+The execution time is : 5.069e-06
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab04[006896598@csusb.edu@jb359-2 lab04]$ ./lab04
+Please enter x: 3
+Please enter n: 1000
+-9141782528521893711
+The execution time is : 0.00367411
+-9141782528521893711
+The execution time is : 1.4903e-05
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab04[006896598@csusb.edu@jb359-2 lab04]$ ./lab04
+Please enter x: 3
+Please enter n: 100000 
+-8051431618136537887
+The execution time is : 0.105815
+-8051431618136537887
+The execution time is : 1.9375e-05
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab04[006896598@csusb.edu@jb359-2 lab04]$ ./lab04
+Please enter x: 3
+Please enter n: 100000
+3725597458245626049
+The execution time is : 8.56006
+3725597458245626049
+The execution time is : 0.000238837
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab04[006896598@csusb.edu@jb359-2 lab04]$ end
+bash: end: command not found...
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab04[006896598@csusb.edu@jb359-2 lab04]$ exit
+exit
+
+Script done on 2021-09-23 18:55:25-07:00 [COMMAND_EXIT_CODE="127"]
