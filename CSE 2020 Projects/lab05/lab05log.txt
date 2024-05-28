@@ -1,0 +1,30 @@
+Script started on 2021-09-30 21:38:45-07:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab05[006896598@csusb.edu@jb359-2 lab05]$ exitssh jb359-2h359-2[8Pexitcat lab04log.txt[3@scrip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./lab04\[K[K5
+Create a list of integers:
+10 20 30 40 50 60 70 80   90 0
+
+The size of linked list is: 9
+The linked list is:
+90 80 70 60 50 40 30 20 10 
+
+Enter the key: 60
+Is the key in the list? 1
+
+How many values you want to remove? 3
+The linked list is:
+60 50 40 30 20 10 
+
+Create a list of strings:
+Ji im Tom Alice Bob Ellen Bella Smithj  Don exit
+
+The size of linked list is: 8
+The linked list is:
+Don Smith Bella Ellen Bob Alice Tom Jim 
+
+How many values you want to remove? 3
+The list is:
+Ellen Bob Alice Tom Jim 
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab05[006896598@csusb.edu@jb359-2 lab05]$ ./lab05[3Pexitssh jb359-2h359-2[8Pexitcat lab04log.txt[3@scrip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./lab04\[Kg++ lab04.cpp -o lab04ls[Kpwd[1Plspwd[1Plspwd[1Plsg++ lab04.cpp -o lab04./lab04[K\[Kscript lab04log.txt[3Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kssh jbh359-2[1P359-2[7Pexit./lab05[Kexit
+exit
+
+Script done on 2021-09-30 21:40:48-07:00 [COMMAND_EXIT_CODE="0"]

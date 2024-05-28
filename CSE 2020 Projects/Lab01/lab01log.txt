@@ -1,0 +1,14 @@
+Script started on 2021-08-26 15:34:03-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="317" LINES="86"]
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab01[006896598@csusb.edu@jb359-2 lab01]$ exitvi funcs.hls[Kpwdcd lab01[3@mkdir[C[C[C[C[C[Cssh jb358-8[7PJHLHRUNNINGisFUN#002[5Pssh jb358-212[1Pvi funcs.hssh jb358-212RUNNINGisFUN#002JHLH[Kssh jb358-8mkdir lab01[3Pcd[C[C[C[C[C[C[5Ppwd[1Plsvi funcs.h[6Pexit[Kexitvi funcs.hls[Kpwdcd lab01[3@mkdir[C[C[C[C[C[Cssh jb358-8mkdir lab01[3Pcd[C[C[C[C[C[C[5Ppwd[1Plsvi funcs.h[6Pexit[Kls
+funcs.cpp  funcs.h  funcs.o  [0m[01;32mlab01[0m  lab01.cpp  lab01log.txt  lab01.o  Makefile  search.txt
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab01[006896598@csusb.edu@jb359-2 lab01]$ ./lab01
+The array: 63 60 61 81 83 15 51 68 48 13 43 35 91 31 98 33 79 55 34 20 65 17 84 90 86 26 97 58 53 14 27 46 23 50 85 49 21 75 11 10 87 93 88 19 82 24 57 99 80 12 74 39 16 22 42 56 36 76 64 18 
+Enter the key: 82
+the index of key is: 44
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab01[006896598@csusb.edu@jb359-2 lab01]$ ./lab01ls[K./lab01
+The array: 63 60 61 81 83 15 51 68 48 13 43 35 91 31 98 33 79 55 34 20 65 17 84 90 86 26 97 58 53 14 27 46 23 50 85 49 21 75 11 10 87 93 88 19 82 24 57 99 80 12 74 39 16 22 42 56 36 76 64 18 
+Enter the key: 202
+key is not in list]0;006896598@csusb.edu@jb359-2:~/cse2020/lab01[006896598@csusb.edu@jb359-2 lab01]$ exit
+exit
+
+Script done on 2021-08-26 15:36:12-07:00 [COMMAND_EXIT_CODE="0"]

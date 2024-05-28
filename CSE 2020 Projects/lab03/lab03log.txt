@@ -1,0 +1,35 @@
+Script started on 2021-09-16 21:28:06-07:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab03[006896598@csusb.edu@jb359-2 lab03]$ ./lab03
+Enter the student id and name(0 no = exit):1101 Taylor
+The student is added
+
+Enter the student id and name(0 no = exit):1102 Smithj 
+The student is added
+
+Enter the student id and name(0 no = exit):103 Alice        103 Alice
+The student is added
+
+Enter the student id and name(0 no = exit):1104 Tom
+The student is added
+
+Enter the student id and name(0 no = exit):0 no
+The student is added
+
+
+The students are:
+1101 Taylor
+1102 Smith
+1103 Alice
+1104 Tom
+
+The student id to be removed: 1102
+the student is removed
+
+The students are:
+1101 Taylor
+1103 Alice
+1104 Tom
+]0;006896598@csusb.edu@jb359-2:~/cse2020/lab03[006896598@csusb.edu@jb359-2 lab03]$ exitr[K[Kt
+exit
+
+Script done on 2021-09-16 21:30:11-07:00 [COMMAND_EXIT_CODE="0"]
