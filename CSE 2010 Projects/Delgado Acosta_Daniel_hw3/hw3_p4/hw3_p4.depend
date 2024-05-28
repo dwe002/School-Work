@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1617930820 source:h:\2021\cse 07\code\delgado acosta_daniel_hw3\hw3_p4\main.cpp
+	<iostream>
+	<string>
+	<vector>
+
