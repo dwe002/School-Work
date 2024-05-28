@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1621542413 source:h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p1\main.cpp
+	<iostream>
+	"Rectangle.h"
+	<iostream>
+
+1621542495 h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p1\rectangle.h
+	<iostream>
+
+1621542325 source:h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p1\rectangle.cpp
+	"Rectangle.h"
+	<iostream>
+

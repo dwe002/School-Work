@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1621547494 source:h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p2\main.cpp
+	<iostream>
+	"StreetAddress.h"
+	"person.h"
+
+1621546980 h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p2\streetaddress.h
+	<iostream>
+
+1621546674 h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p2\person.h
+	"StreetAddress.h"
+	<iostream>
+
+1621546543 source:h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p2\person.cpp
+	"Person.h"
+	<iostream>
+
+1621546991 source:h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p2\streetaddress.cpp
+	"StreetAddress.h"
+

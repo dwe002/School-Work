@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1621555426 source:h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p3\question.cpp
+	"Question.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1621554907 h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p3\question.h
+	<iostream>
+	<sstream>
+	<string>
+
+1621555480 source:h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p3\main.cpp
+	"Question.h"
+	"FillInQuestion.h"
+	<iostream>
+	<string>
+
+1621555426 h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p3\question.cpp
+	"Question.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1621555492 h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p3\include\fillinquestion.h
+	"../Question.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1621556153 source:h:\2021\cse 07\code\delgado acosta_daniel_hw5\hw5_p3\src\fillinquestion.cpp
+	"FillInQuestion.h"
+	<iostream>
+	<sstream>
+	<string>
+	<locale>
+
