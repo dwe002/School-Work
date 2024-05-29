@@ -1,0 +1,47 @@
+       +------------------+
+       |  TEXT            | x10000?
+       |                  |
+       |  instructions in |		 0x40135d = proc1
+       |  machine code    | 		 0x401443 = proc2
+       |                  |
+       +------------------+ 		 0x4015e5 = etext
+       |  DATA            | 		 0x404034 = g1   global initialized
+       |  - initialized   | 		 0x404038 = g3
+       |    variables     | 		 0x40403c = ls1  static initialized
+       |                  | 		 0x404040 = ls3
+       |                  | 
+       | ---------------  | 		 0x404044 = edata
+       |                  | 		 0x404080 = g0   global uninitialized
+       |                  | 		 0x4040a0 = g2   big array 
+       |                  | 		 0x405810 = g4
+       |  - uninitialized | 		 0x405814 = ls0  static uninitialized
+       |    variables     | 		 0x405818 = ls2
+       |                  |
+       |                  | 
+       | ---------------  | 		 0x405820 = end 
+       |  - heap for      | 		 pointed to by heap1
+       |  dynamic         | 		 pointed to by heap2
+       |  allocation      |
+       |                  |
+       |                  |
+       +------------------+ 
+                |
+                |
+                V
+
+                .
+                .
+                .
+
+                ^
+                |
+                |
+       +------------------+
+       |  STACK           | 		 0x7ffd7f4337c8, 0x7ffd7f4337c8 = lc4, lc6   | Activation record for 
+       |  - function      | 		 0x7ffd7f4337cc, 0x7ffd7f4337cc = lc3, lc5   | proc1 or proc2
+       |    activation    	
+       |    records       |
+       |  - local         | 		 0x7ffd7f4337e4 = lc2       | Activation record for
+       |    automatic     | 		 0x7ffd7f4337e8 = lc1       | main
+       |    variables     |    		xffbe2880 = lc0       |
+       +------------------+
