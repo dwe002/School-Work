@@ -1,0 +1,136 @@
+Script started on 2023-04-20 22:17:05-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="84" LINES="31"]
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw5[006896598@csusb.edu@jb359-2 hw5]$ ./tcp_server 3000[4P[C[C[C[C[C[C[C[C[C[C[C<port>gcc tcp_client.c -o tcp_clientserver.c -o tcp_server[11Pcd "CSE 4100 Lab 2"cse[C[C[C[C[C[C[C[C[C[C[C[C[2Pcse 4100 Lab 2s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\d[Kssh jb359-28-19-2cd[Ks cse 4100 Lab 2\[Kd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"cse 4100 Lab 2"CSE[C[C[C[C[C[C[C[C[C[C[C[Cgcc tcp_server.c -o tcp_serverclient.c -o tcp_client[15P./server <port>[2P3000[4@tcp_[C[C[C[C[C[C[C[C[C[C[C[K./tcp_server 3000[4P[C[C[C[C[C[C[C[C[C[C[C<port>gcc tcp_client.c -o tcp_clientserver.c -o tcp_server[11Pcd "CSE 4100 Lab 2"cse[C[C[C[C[C[C[C[C[C[C[C[C[2Pcse 4100 Lab 2s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\d[Kssh jb359-28-19-2cat hw3log.txt[3@scrip[C[C[C[C[C[C[C[C[C[C[C[C[6Prm -r file1make qemu-nox[2Pvi Makefilemake qemu-nox[2Prm -r file1script hw3log.txt[3Pca[C[C[C[C[C[C[C[C[C[C[C[C[3Pssh jb359-28-19-2cd[Ks cse 4100 Lab 2\[Kd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"cse 4100 Lab 2"CSE[C[C[C[C[C[C[C[C[C[C[C[Cgcc tcp_server.c -o tcp_serverclient.c -o tcp_client[15P./server <port>[2P3000[4@tcp_[C[C[C[C[C[C[C[C[C[C[C[Kgcc badcnt.c -o xbadcnt -lpthread
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw5[006896598@csusb.edu@jb359-2 hw5]$ gcc badcnt.c -o xbadcnt -lpthread[16P./tcp_server 3000[4P[C[C[C[C[C[C[C[C[C[C[C<port>gcc tcp_client.c -o tcp_clientserver.c -o tcp_serverclient.c -o tcp_client[15P./server <port>[2P3000[4@tcp_[C[C[C[C[C[C[C[C[C[C[Cgcc badcnt.c -o xbadcnt -lpthread[K./xbadcnt
+
+ BOOM! cnt is [1005079], should be 2000000
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw5[006896598@csusb.edu@jb359-2 hw5]$ ./xbadcntgcc badcnt.c -o xbadcnt -lpthread./xbadcnt[K[Kgcc -o goodcnt goodcnt.c -lpthread
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw5[006896598@csusb.edu@jb359-2 hw5]$ ./goodcnt
+
+ OK! cnt is [2000000]
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw5[006896598@csusb.edu@jb359-2 hw5]$ ./goodcntgcc -o goodcnt goodcnt.c -lpthread./xbadcnt[Kgcc -o goodcnt goodcnt.c -lpthread./goodcnt[Kgcc -o goodcnt goodcnt.c -lpthread./xbadcnt[Kgcc badcnt.c -o xbadcnt -lpthread[16P./tcp_server 3000[4P[C[C[C[C[C[C[C[C[C[C[C[4@tcp_[C[C[C[C[C[C[C[C[C[C[Cgcc badcnt.c -o xbadcnt -lpthread./xbadcnt[Kgcc -o goodcnt goodcnt.c -lpthread./goodcnt[K[Kgcc hw5.c -o hw5 -lpthread
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw5[006896598@csusb.edu@jb359-2 hw5]$ ./hw [K5 6 6
+Producer [139932279944960] produced 383
+Producer [139932279944960] produced 793
+Producer [139932263159552] produced 777
+Producer [139932254766848] produced 915
+Producer [139932271552256] produced 886
+ consumer [139932229588736] consumed 383
+ consumer [139932229588736] consumed 793
+ consumer [139932229588736] consumed 777
+Producer [139932279944960] produced 335
+Producer [139932254766848] produced 492
+ consumer [139932229588736] consumed 915
+ consumer [139932204410624] consumed 886
+Producer [139932271552256] produced 649
+Producer [139932246374144] produced 421
+ consumer [139932212803328] consumed 335
+ consumer [139932204410624] consumed 492
+ consumer [139932196017920] consumed 649
+ consumer [139932221196032] consumed 421
+Producer [139932263159552] produced 386
+Producer [139932271552256] produced 59
+Producer [139932237981440] produced 362
+Producer [139932254766848] produced 690
+Producer [139932279944960] produced 27
+ consumer [139932196017920] consumed 386
+ consumer [139932229588736] consumed 59
+ consumer [139932212803328] consumed 362
+Producer [139932279944960] produced 736
+ consumer [139932204410624] consumed 690
+ consumer [139932114876160] consumed 27
+Producer [139932263159552] produced 926
+Producer [139932254766848] produced 172
+ consumer [139932196017920] consumed 736
+ consumer [139932221196032] consumed 926
+Producer [139932237981440] produced 426
+Producer [139932271552256] produced 540
+Producer [139932254766848] produced 567
+ consumer [139932229588736] consumed 172
+ consumer [139932221196032] consumed 426
+ consumer [139932114876160] consumed 540
+ consumer [139932204410624] consumed 567
+Producer [139932263159552] produced 368
+Producer [139932246374144] produced 763
+Producer [139932237981440] produced 429
+Producer [139932263159552] produced 862
+ consumer [139932212803328] consumed 368
+Producer [139932279944960] produced 211
+ consumer [139932229588736] consumed 763
+ consumer [139932114876160] consumed 429
+Producer [139932271552256] produced 782
+ consumer [139932212803328] consumed 862
+ consumer [139932204410624] consumed 211
+Producer [139932263159552] produced 135
+Producer [139932237981440] produced 67
+Producer [139932271552256] produced 802
+ consumer [139932212803328] consumed 782
+ consumer [139932114876160] consumed 135
+ consumer [139932221196032] consumed 67
+Producer [139932279944960] produced 929
+ consumer [139932204410624] consumed 802
+Producer [139932263159552] produced 22
+Producer [139932246374144] produced 123
+Producer [139932237981440] produced 58
+ consumer [139932229588736] consumed 929
+ consumer [139932114876160] consumed 22
+Producer [139932254766848] produced 530
+ consumer [139932212803328] consumed 123
+ consumer [139932196017920] consumed 58
+ consumer [139932221196032] consumed 530
+Producer [139932279944960] produced 167
+Producer [139932254766848] produced 42
+Producer [139932271552256] produced 69
+Producer [139932246374144] produced 456
+ consumer [139932204410624] consumed 167
+ consumer [139932212803328] consumed 42
+Producer [139932237981440] produced 11
+Producer [139932254766848] produced 229
+Producer [139932263159552] produced 393
+ consumer [139932221196032] consumed 69
+ consumer [139932114876160] consumed 456
+ consumer [139932229588736] consumed 11
+Producer [139932246374144] produced 421
+Producer [139932279944960] produced 919
+ consumer [139932196017920] consumed 229
+ consumer [139932204410624] consumed 393
+Producer [139932279944960] produced 315
+ consumer [139932221196032] consumed 421
+Producer [139932254766848] produced 537
+Producer [139932271552256] produced 373
+ consumer [139932196017920] consumed 919
+ consumer [139932212803328] consumed 315
+ consumer [139932204410624] consumed 537
+Producer [139932263159552] produced 198
+Producer [139932246374144] produced 324
+ consumer [139932114876160] consumed 373
+Producer [139932237981440] produced 784
+Producer [139932254766848] produced 370
+ consumer [139932221196032] consumed 198
+ consumer [139932229588736] consumed 324
+Producer [139932263159552] produced 526
+Producer [139932246374144] produced 91
+ consumer [139932204410624] consumed 784
+ consumer [139932114876160] consumed 370
+Producer [139932237981440] produced 980
+Producer [139932246374144] produced 956
+ consumer [139932212803328] consumed 526
+Producer [139932271552256] produced 413
+ consumer [139932114876160] consumed 91
+Producer [139932237981440] produced 873
+ consumer [139932221196032] consumed 980
+ consumer [139932114876160] consumed 956
+Producer [139932271552256] produced 170
+Producer [139932237981440] produced 996
+ consumer [139932221196032] consumed 413
+Producer [139932246374144] produced 862
+Producer [139932246374144] produced 281
+ consumer [139932196017920] consumed 873
+ consumer [139932196017920] consumed 170
+ consumer [139932196017920] consumed 996
+ consumer [139932212803328] consumed 862
+ consumer [139932196017920] consumed 281
+Exit the program
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw5[006896598@csusb.edu@jb359-2 hw5]$ exit
+exit
+
+Script done on 2023-04-20 22:19:21-07:00 [COMMAND_EXIT_CODE="0"]
