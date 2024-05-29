@@ -1,0 +1,25 @@
+Script started on 2023-02-14 21:09:44-08:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw1[006896598@csusb.edu@jb359-2 hw1]$ exitrm -r cppbackup[4Pssh jb359-5rm -r cppbackup
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw1[006896598@csusb.edu@jb359-2 hw1]$ ls
+backup.cpp  cppbackup.cpp  func.cpp  hw1log.txt  [0m[01;32mhw1.sh[0m  new.cpp  team.sh
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw1[006896598@csusb.edu@jb359-2 hw1]$ ./hw1.sh
+Enter the directory name:
+cppbackup
+Create cppbackup
+Backup backup.cpp
+Backup cppbackup.cpp
+Backup func.cpp
+Backup new.cpp
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw1[006896598@csusb.edu@jb359-2 hw1]$ echo "add one line">>backup.ccp[K[Kpp
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw1[006896598@csusb.edu@jb359-2 hw1]$ echo "add one line">>backup.cpp./hw1.sh[K
+Enter the directory name:
+cppbackup
+cppbackup exists
+Backup backup.cpp
+cppbackup.cpp no update
+func.cpp no update
+new.cpp no update
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw1[006896598@csusb.edu@jb359-2 hw1]$ exit
+exit
+
+Script done on 2023-02-14 21:12:07-08:00 [COMMAND_EXIT_CODE="0"]
