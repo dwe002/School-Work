@@ -1,0 +1,147 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000020d4da4d000 .scope module, "mux8x1_tb" "mux8x1_tb" 2 6;
+ .timescale -9 -9;
+v0000020d4db010f0_0 .var "A", 0 0;
+v0000020d4db01a50_0 .var "B", 0 0;
+v0000020d4db01410_0 .var "C", 0 0;
+v0000020d4db01370_0 .var "D", 0 0;
+v0000020d4db00fb0_0 .var "E", 0 0;
+v0000020d4db014b0_0 .var "F", 0 0;
+v0000020d4db01af0_0 .var "G", 0 0;
+v0000020d4db017d0_0 .var "H", 0 0;
+v0000020d4db01b90_0 .net "O", 0 0, L_0000020d4db02f60;  1 drivers
+v0000020d4db01c30_0 .var "Sel0", 0 0;
+v0000020d4db01550_0 .var "Sel1", 0 0;
+v0000020d4db00dd0_0 .var "Sel2", 0 0;
+S_0000020d4da4d190 .scope module, "uut" "mux_8x1" 2 13, 3 2 0, S_0000020d4da4d000;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /INPUT 1 "c";
+    .port_info 3 /INPUT 1 "d";
+    .port_info 4 /INPUT 1 "e";
+    .port_info 5 /INPUT 1 "f";
+    .port_info 6 /INPUT 1 "g";
+    .port_info 7 /INPUT 1 "h";
+    .port_info 8 /INPUT 1 "sel0";
+    .port_info 9 /INPUT 1 "sel1";
+    .port_info 10 /INPUT 1 "sel2";
+    .port_info 11 /OUTPUT 1 "out";
+v0000020d4da4bf20_0 .net *"_ivl_0", 0 0, L_0000020d4db01190;  1 drivers
+v0000020d4da4d3f0_0 .net *"_ivl_10", 0 0, L_0000020d4db024c0;  1 drivers
+v0000020d4da46df0_0 .net *"_ivl_2", 0 0, L_0000020d4db01cd0;  1 drivers
+v0000020d4db55840_0 .net *"_ivl_4", 0 0, L_0000020d4db015f0;  1 drivers
+v0000020d4db558e0_0 .net *"_ivl_6", 0 0, L_0000020d4db01050;  1 drivers
+v0000020d4db55980_0 .net *"_ivl_8", 0 0, L_0000020d4db02ec0;  1 drivers
+v0000020d4db55a20_0 .net "a", 0 0, v0000020d4db010f0_0;  1 drivers
+v0000020d4db55ac0_0 .net "b", 0 0, v0000020d4db01a50_0;  1 drivers
+v0000020d4db55b60_0 .net "c", 0 0, v0000020d4db01410_0;  1 drivers
+v0000020d4db01690_0 .net "d", 0 0, v0000020d4db01370_0;  1 drivers
+v0000020d4db01910_0 .net "e", 0 0, v0000020d4db00fb0_0;  1 drivers
+v0000020d4db012d0_0 .net "f", 0 0, v0000020d4db014b0_0;  1 drivers
+v0000020d4db00e70_0 .net "g", 0 0, v0000020d4db01af0_0;  1 drivers
+v0000020d4db01730_0 .net "h", 0 0, v0000020d4db017d0_0;  1 drivers
+v0000020d4db00f10_0 .net "out", 0 0, L_0000020d4db02f60;  alias, 1 drivers
+v0000020d4db019b0_0 .net "sel0", 0 0, v0000020d4db01c30_0;  1 drivers
+v0000020d4db01230_0 .net "sel1", 0 0, v0000020d4db01550_0;  1 drivers
+v0000020d4db01870_0 .net "sel2", 0 0, v0000020d4db00dd0_0;  1 drivers
+L_0000020d4db01190 .functor MUXZ 1, v0000020d4db01af0_0, v0000020d4db017d0_0, v0000020d4db01c30_0, C4<>;
+L_0000020d4db01cd0 .functor MUXZ 1, v0000020d4db00fb0_0, v0000020d4db014b0_0, v0000020d4db01c30_0, C4<>;
+L_0000020d4db015f0 .functor MUXZ 1, L_0000020d4db01cd0, L_0000020d4db01190, v0000020d4db01550_0, C4<>;
+L_0000020d4db01050 .functor MUXZ 1, v0000020d4db01410_0, v0000020d4db01370_0, v0000020d4db01c30_0, C4<>;
+L_0000020d4db02ec0 .functor MUXZ 1, v0000020d4db010f0_0, v0000020d4db01a50_0, v0000020d4db01c30_0, C4<>;
+L_0000020d4db024c0 .functor MUXZ 1, L_0000020d4db02ec0, L_0000020d4db01050, v0000020d4db01550_0, C4<>;
+L_0000020d4db02f60 .functor MUXZ 1, L_0000020d4db024c0, L_0000020d4db015f0, v0000020d4db00dd0_0, C4<>;
+    .scope S_0000020d4da4d000;
+T_0 ;
+    %vpi_call 2 18 "$dumpfile", "mux8x1_tb" {0 0 0};
+    %vpi_call 2 19 "$dumpvars", 32'sb00000000000000000000000000000000, S_0000020d4da4d000 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020d4db010f0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020d4db01a50_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020d4db01410_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020d4db01370_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020d4db00fb0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020d4db014b0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000020d4db01af0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000020d4db017d0_0, 0, 1;
+    %pushi/vec4 0, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01c30_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01550_0, 0, 1;
+    %store/vec4 v0000020d4db00dd0_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 1, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01c30_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01550_0, 0, 1;
+    %store/vec4 v0000020d4db00dd0_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 2, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01c30_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01550_0, 0, 1;
+    %store/vec4 v0000020d4db00dd0_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 3, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01c30_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01550_0, 0, 1;
+    %store/vec4 v0000020d4db00dd0_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 4, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01c30_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01550_0, 0, 1;
+    %store/vec4 v0000020d4db00dd0_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 5, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01c30_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01550_0, 0, 1;
+    %store/vec4 v0000020d4db00dd0_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 6, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01c30_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01550_0, 0, 1;
+    %store/vec4 v0000020d4db00dd0_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 7, 0, 3;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01c30_0, 0, 1;
+    %split/vec4 1;
+    %store/vec4 v0000020d4db01550_0, 0, 1;
+    %store/vec4 v0000020d4db00dd0_0, 0, 1;
+    %delay 20, 0;
+    %vpi_call 2 33 "$display", "Complete!" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "mux8x1_tb.v";
+    "./mux8x1.v";
