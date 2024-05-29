@@ -1,0 +1,113 @@
+Script started on 2023-03-21 22:13:38-07:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="177" LINES="155"]
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw3/xv6-public[006896598@csusb.edu@jb359-2 xv6-public]$ exitssh jb359-2[7Pexitcat hw1log.txt[4Pta h1.txtls[Kscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txt[2Pchmod +x hw1.sh[9Pd hw1[1PHWs[C[C[Cd 'CSE 4600'[1P4600'[1PCSE 4600[1P4600ls[Kcd CSE 4600pwd[K[1Plsexit./hw1.shecho "add one line">>backup.cpp./hw1.sh[Kls[K./hw1.shecho "add one line">>backup.cpp./hw1.sh[Kls[Krm -r cppbackupexit[Krm -r cppbackup[4Pssh jb359-58-19-38-19-5rm -r cppbackupexit[Krm -r cppbackupls[K./hw1.shecho "add one line">>backup.cpp./hw1.sh[K[4Pexit[2Plspwdcd CSE 4600ls[Kcd CSE4600 4600'CSE4600' 4600'[8Ps HWd[C[C[Chw1hmod +x hw1.shscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txtls[Kcta h1.txtat hw1log.txtexit[Kssh jb359-2[7Pexit[Kexitssh jb359-2[7Pexitcat hw1log.txt[4Pta h1.txtls[Kscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txtls[Kcta h1.txtat hw1log.txtexit[Kssh jb359-2[7Pexit[Kmake qemu-nox
+which: no qemu in (/opt/anaconda3/bin:/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/arm/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-linux/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-none/bin:/opt/Xilinx/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin:/opt/Xilinx/DocNav:/opt/Xilinx/Vivado/2018.2/bin:/usr/lib64/openmpi/bin:/opt/UCSF/Chimera64-1.12/bin:/usr/local/MATLAB/R2018a/bin:/share/bin:/usr/local/racket/bin:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/opt/Xilinx/Vivado/2017.2/bin:/opt/Xilinx/Vivado_HLS/2017.2/bin:/opt/android-studio/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/platform-tools:/usr/java/latest/bin:/opt/anaconda3/bin:/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/arm/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-linux/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-none/bin:/opt/Xilinx/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin:/opt/Xilinx/DocNav:/opt/Xilinx/Vivado/2018.2/bin:/usr/lib64/openmpi/bin:/opt/UCSF/Chimera64-1.12/bin:/usr/local/MATLAB/R2018a/bin:/share/bin:/usr/local/racket/bin:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/opt/Xilinx/Vivado/2017.2/bin:/opt/Xilinx/Vivado_HLS/2017.2/bin:/opt/android-studio/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/platform-tools:/usr/java/latest/bin:/opt/anaconda3/bin:/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/arm/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-linux/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-none/bin:/opt/Xilinx/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin:/opt/Xilinx/DocNav:/opt/Xilinx/Vivado/2018.2/bin:/usr/lib64/openmpi/bin:/opt/UCSF/Chimera64-1.12/bin:/usr/local/MATLAB/R2018a/bin:/share/bin:/usr/local/racket/bin:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/opt/Xilinx/Vivado/2017.2/bin:/opt/Xilinx/Vivado_HLS/2017.2/bin:/opt/android-studio/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/platform-tools:/usr/java/latest/bin:/usr/libexec/python3-sphinx:/usr/lib64/qt-3.3/bin:/usr/share/Modules/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/csusb.edu/006896598/.local/bin:/home/csusb.edu/006896598/bin)
+qemu-system-i386 -nographic -drive file=fs.img,index=1,media=disk,format=raw -drive file=xv6.img,index=0,media=disk,format=raw -smp 2 -m 512 
+c[?7l[2J[0mSeaBIOS (version 1.12.0-2.fc30)
+
+
+iPXE (http://ipxe.org) 00:03.0 C980 PCI2.10 PnP PMM+1FF91280+1FED1280 C980
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk..xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ ls
+.              1 1 512
+..             1 1 512
+README         2 2 2286
+cat            2 3 16244
+echo           2 4 15076
+forktest       2 5 9392
+grep           2 6 18436
+init           2 7 15684
+kill           2 8 15108
+ln             2 9 14976
+ls             2 10 17600
+mkdir          2 11 15220
+rm             2 12 15200
+sh             2 13 27720
+stressfs       2 14 16112
+usertests      2 15 67048
+wc             2 16 16960
+zombie         2 17 14792
+cp             2 18 15640
+ps             2 19 14804
+date           2 20 15208
+touch          2 21 15380
+console        3 22 0
+myFile         2 23 2286
+file1          2 24 0
+$ cp README myfile
+$ ls
+.              1 1 512
+..             1 1 512
+README         2 2 2286
+cat            2 3 16244
+echo           2 4 15076
+forktest       2 5 9392
+grep           2 6 18436
+init           2 7 15684
+kill           2 8 15108
+ln             2 9 14976
+ls             2 10 17600
+mkdir          2 11 15220
+rm             2 12 15200
+sh             2 13 27720
+stressfs       2 14 16112
+usertests      2 15 67048
+wc             2 16 16960
+zombie         2 17 14792
+cp             2 18 15640
+ps             2 19 14804
+date           2 20 15208
+touch          2 21 15380
+console        3 22 0
+myFile         2 23 2286
+file1          2 24 0
+myfile         2 25 2286
+$ ps
+name 	 pid 	 state 
+init 	 1 	 SLEEPING 
+ sh 	 2 	 SLEEPING 
+ ps 	 6 	 RUNNING 
+ $ touch fdil   ile1 file 2  3 2 file  3
+$ ls
+.              1 1 512
+..             1 1 512
+README         2 2 2286
+cat            2 3 16244
+echo           2 4 15076
+forktest       2 5 9392
+grep           2 6 18436
+init           2 7 15684
+kill           2 8 15108
+ln             2 9 14976
+ls             2 10 17600
+mkdir          2 11 15220
+rm             2 12 15200
+sh             2 13 27720
+stressfs       2 14 16112
+usertests      2 15 67048
+wc             2 16 16960
+zombie         2 17 14792
+cp             2 18 15640
+ps             2 19 14804
+date           2 20 15208
+touch          2 21 15380
+console        3 22 0
+myFile         2 23 2286
+file1          2 24 0
+myfile         2 25 2286
+file2          2 26 0
+file3          2 27 0
+$ date
+22-3-2023
+$ [A[A[B[B[A[BQEMU 3.1.1 monitor - type 'help' for more information
+(qemu) q[K[Dqu[K[D[Dqui[K[D[D[Dquit[K
+]0;006896598@csusb.edu@jb359-2:~/CSE 4600/HW/hw3/xv6-public[006896598@csusb.edu@jb359-2 xv6-public]$ make qemu-noxexit[Kssh jb359-2[7Pexitcat hw1log.txtexit[Kssh jb359-2[7Pexitssh jb359-2[7Pexitcat hw1log.txt[4Pta h1.txtls[Kscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txt[2Pchmod +x hw1.shscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txtls[Kcta h1.txtat hw1log.txtexit[Kssh jb359-2[7Pexitmake qemu-nox[Kmake qemu-noxexit[Kssh jb359-2[7Pexitcat hw1log.txt[4Pta h1.txtls[Kscript hw1log.txt[2Pmkdir cppbackupscript hw1log.txt[2Pchmod +x hw1.sh[9Pd hw1[1PHWs[C[C[Cd 'CSE 4600'[1P4600'[1PCSE 4600[1P4600ls[Kcd CSE 4600pwd[K[1Plsexit[2Plspwdcd CSE 4600pwd[K[1Plsexit./hw1.shecho "add one line">>backup.cpp./hw1.sh[Kecho "add one line">>backup.cpp./hw1.sh[Kls[Krm -r cppbackupexit[Krm -r cppbackup[4Pssh jb359-58-19-3[7Pexitcat /etc/shellsexit[Kssh jb359-3[7Pexitcat /etc/shellsexit[Kcat /etc/shellsexit[Kcat /etc/shellsexit[Kcat /etc/shellsexit[Kssh jb359-3[7Pexitscript lab13log.txtg++ lab13.cpp -o lab13[2P-c MergeSort.cppls[Kcd lab13[3@mkdir[C[C[C[C[C[C[1Pcd cse2020[6Pexit./lab13[3Pexitssh jb359-3[7Pexitscript lab12l[6P./lab12g++ lab12.cpp -o lab12[1P-c BinaryHeap.cpp[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd lab12[3@mkdir[C[C[C[C[C[C[1Pcd cse2020[1P0[5Pexitscript lab12log.txtexit[K./lab12[3Pexitcd cse2020[2Plab12[3@mkdir[C[C[C[C[C[Ccd cse 2020[7Pexitssh jb359-3[7Pexitscript lab11log.txt[12P./lab11g++ lab11.cpp -o lab11[3Pscript lab11log.txt[12P./lab11g++ lab11.cpp -o lab11./lab11[Kscript lab11log.txtg++ lab11.cpp -o lab11./lab11[Kscript lab11log.txtexit[Kscript lab11log.txt[12P./lab11script lab11log.txtexit[K
+exit
+
+Script done on 2023-03-21 22:16:39-07:00 [COMMAND_EXIT_CODE="0"]
