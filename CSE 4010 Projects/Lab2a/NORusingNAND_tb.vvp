@@ -1,0 +1,104 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000002877c8199a0 .scope module, "NORusingNAND_tb" "NORusingNAND_tb" 2 4;
+ .timescale -9 -9;
+v000002877c823230_0 .var "A", 0 0;
+v000002877c823730_0 .var "B", 0 0;
+v000002877c822fb0_0 .net "Q", 0 0, L_000002877c7f3000;  1 drivers
+S_000002877c7dcc80 .scope module, "uut" "NORusingNAND" 2 10, 3 11 0, S_000002877c8199a0;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "Q";
+L_000002877c7f3000 .functor BUFZ 1, L_000002877c823050, C4<0>, C4<0>, C4<0>;
+v000002877c823870_0 .net "A", 0 0, v000002877c823230_0;  1 drivers
+v000002877c823910_0 .net "B", 0 0, v000002877c823730_0;  1 drivers
+v000002877c8239b0_0 .net "C", 0 0, L_000002877c822e70;  1 drivers
+v000002877c822d30_0 .net "D", 0 0, L_000002877c823410;  1 drivers
+v000002877c823370_0 .net "E", 0 0, L_000002877c823b90;  1 drivers
+v000002877c8237d0_0 .net "F", 0 0, L_000002877c823050;  1 drivers
+v000002877c823a50_0 .net "Q", 0 0, L_000002877c7f3000;  alias, 1 drivers
+S_000002877c7dce10 .scope module, "u1" "NANDgate" 3 19, 3 1 0, S_000002877c7dcc80;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "Q";
+L_000002877c7dd0e0 .functor AND 1, v000002877c823230_0, v000002877c823230_0, C4<1>, C4<1>;
+v000002877c819b30_0 .net "A", 0 0, v000002877c823230_0;  alias, 1 drivers
+v000002877c826180_0 .net "B", 0 0, v000002877c823230_0;  alias, 1 drivers
+v000002877c7dcfa0_0 .net "Q", 0 0, L_000002877c822e70;  alias, 1 drivers
+v000002877c7dd040_0 .net *"_ivl_0", 0 0, L_000002877c7dd0e0;  1 drivers
+L_000002877c822e70 .reduce/nor L_000002877c7dd0e0;
+S_000002877c7f24f0 .scope module, "u2" "NANDgate" 3 20, 3 1 0, S_000002877c7dcc80;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "Q";
+L_000002877c7daf70 .functor AND 1, v000002877c823730_0, v000002877c823730_0, C4<1>, C4<1>;
+v000002877c7f2680_0 .net "A", 0 0, v000002877c823730_0;  alias, 1 drivers
+v000002877c7f2720_0 .net "B", 0 0, v000002877c823730_0;  alias, 1 drivers
+v000002877c7f27c0_0 .net "Q", 0 0, L_000002877c823410;  alias, 1 drivers
+v000002877c7f2860_0 .net *"_ivl_0", 0 0, L_000002877c7daf70;  1 drivers
+L_000002877c823410 .reduce/nor L_000002877c7daf70;
+S_000002877c822970 .scope module, "u3" "NANDgate" 3 21, 3 1 0, S_000002877c7dcc80;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "Q";
+L_000002877c7f2d40 .functor AND 1, L_000002877c822e70, L_000002877c823410, C4<1>, C4<1>;
+v000002877c7f2900_0 .net "A", 0 0, L_000002877c822e70;  alias, 1 drivers
+v000002877c822b00_0 .net "B", 0 0, L_000002877c823410;  alias, 1 drivers
+v000002877c822ba0_0 .net "Q", 0 0, L_000002877c823b90;  alias, 1 drivers
+v000002877c823af0_0 .net *"_ivl_0", 0 0, L_000002877c7f2d40;  1 drivers
+L_000002877c823b90 .reduce/nor L_000002877c7f2d40;
+S_000002877c823c50 .scope module, "u4" "NANDgate" 3 22, 3 1 0, S_000002877c7dcc80;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "Q";
+L_000002877c7f2ea0 .functor AND 1, L_000002877c823b90, L_000002877c823b90, C4<1>, C4<1>;
+v000002877c822dd0_0 .net "A", 0 0, L_000002877c823b90;  alias, 1 drivers
+v000002877c823690_0 .net "B", 0 0, L_000002877c823b90;  alias, 1 drivers
+v000002877c822f10_0 .net "Q", 0 0, L_000002877c823050;  alias, 1 drivers
+v000002877c8232d0_0 .net *"_ivl_0", 0 0, L_000002877c7f2ea0;  1 drivers
+L_000002877c823050 .reduce/nor L_000002877c7f2ea0;
+    .scope S_000002877c8199a0;
+T_0 ;
+    %vpi_call 2 14 "$dumpfile", "NORusingNAND_tb.vcd" {0 0 0};
+    %vpi_call 2 15 "$dumpvars", 32'sb00000000000000000000000000000000, S_000002877c8199a0 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002877c823230_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002877c823730_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002877c823230_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002877c823730_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002877c823230_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002877c823730_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002877c823230_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002877c823730_0, 0, 1;
+    %delay 20, 0;
+    %vpi_call 2 22 "$display", "Complete!" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "NORusingNAND_tb.v";
+    "./NORusingNAND.v";
